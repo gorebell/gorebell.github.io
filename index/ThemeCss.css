@@ -1,0 +1,177 @@
+/* -----------------------------------------
+Theme Name: Metro Default
+Theme Id: 319
+Template Version: 1.2
+Last Generated: Fri, 10 Jun 2011 13:57:35 GMT
+-------------------------------------------- */
+
+/* =reset
+	------------------------------------- */
+ol.allplaylists li.odd, ol.allplaylists li.even { padding: 10px 0; }
+.musicPlayerModule .moduleMid { margin-top: 0; }
+.glue.primary, .tabs > ul > li:hover > a, .tabs .selected a { text-shadow: none; }
+
+
+/* =base
+	------------------------------------- */
+
+/* Background */
+	body { background-color: #d7d7d7; } 
+
+/* Font & Text Color */
+.content {
+ color: #262626; 
+ font-family: arial ;
+}
+/* Ad Color */
+ .content .ad_label, .streamContainer p { color: #262626; } 
+
+/* Content Wrapper */
+	.profileLayout { width: 790px; padding: 10px 0px; }
+	.userStatus, .sitesHeader { width: 770px; }
+	.profileWrap { 
+		padding: 10px; 
+ background-color: #fff; 
+ -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; 
+	}
+
+/* Links */
+ .profileLayout a, .tabs > ul > li > a { color: #666; } 
+ .profileLayout a:hover { color: #000; } 
+
+ .sitesHeader .gearLinks a, .profileLayout .mediaAction a  { color: #0076DE; } 
+ .sitesHeader .gearLinks a:hover, .profileLayout .streamContainer ul.mediaAction a:hover  { color: #ffffff; } 
+ .sitesHeader .gearLinks a:hover, .profileLayout .streamContainer ul.mediaAction a:hover  { background-color: #0076DE; } 
+
+
+/* =Buttons
+	----------------*/
+.sitesHeader .glue.primary { 
+ background: #0076DE; 
+ color: #ffffff; 
+ border-color: #2C9CFF;  
+}
+.sitesHeader .glue.primary:hover { 
+ background: #2C9CFF; 
+ color: #ffffff; 
+}
+
+/* =Music Navigation
+	----------------*/
+
+/* =User Navigation
+	----------------*/
+ .userBadgeSideBar nav a { background: #e8e8e8; border-color: #ccc; color: #444; } 
+ .userBadgeSideBar nav .selected, .userBadgeSideBar nav a:hover { background-color: #444; color: #e8e8e8;	border-color: #ccc; } 
+ .userBadgeSideBar nav a { margin-top: 3px; padding: 5px 10px; border-width: 1px; border-style: solid; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; } 
+
+/* mini profile */
+ .userBadgeSideBar .userInfoToolTip div { border-color: #666; } 
+ .userBadgeSideBar .userInfoToolTip .outter { border-right-color: #666; } 
+
+/* =Sites Header
+	----------------*/
+ .sitesHeader { background-color: #e8e8e8; } 
+ .sitesHeader a { color: #000000; } 
+ .sitesHeader a:hover { color: #666; } 
+ .sitesHeader { margin-bottom: 10px; border: none; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; } 
+
+.sitesHeader h1 a { 
+ font-family: arial; 
+ font-weight: bold; 
+ font-style: normal; 
+ font-variant: normal; 
+}
+
+/* =User Status
+	----------------*/
+.userStatus {
+ background-color: #fff; 
+ color: #666; 
+ -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; 
+}
+ .userStatus small { border-bottom-color: #fff; border-bottom-color: ; }  
+ .userStatus a, .userStatus .activitySourceTimestamp, .userStatus .activitySourceTimestamp a  { color: #444 } 
+ .userStatus a:hover, .userStatus .activitySourceTimestamp a:hover  { color: #000 } 
+ .userStatus { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; } 
+
+/* =Modules
+	----------------*/
+.moduleHead {
+ color: #000000; 
+ font-family: arial; 
+ border-bottom: 3px solid #ccc; 
+}
+
+ /* Style Round */
+.moduleHead { padding-left: 10px; }
+.moduleBody{ padding: 10px; }
+.moduleMid2 > .tabs, .moduleMid2 > nav > .tabs { padding: 10px 10px 0 10px; } /* tabs are not in moduleBody */
+
+/* Make Things Round */
+.moduleHead { -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; }
+.module { border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+
+/* Apply Colors to modules, not layout */
+ .module { background-color: #fff; } 
+ 
+
+/* =tabs =pagination =morePager
+	------------------------------------- */
+ .tabs a, .horizontalMenu a, .horizontalMenu .dropdown { color: #000; } 
+ .tabs > ul > li:hover > a, .tabs .selected a, .tabs .dropdown:hover > a, .horizontalMenu li a:hover, .horizontalMenu li.selected a { background-color: #ccc; border-color: #ccc; color: #000; }  
+
+/* =pagination */
+.pagination a:hover, .pagination .selected { 
+ background: #ccc; 
+ color: #000;  
+}
+
+ .tabs > li > a, .horizontalMenu > li > a { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; } 
+
+/* OLD SITE, REMOVE AFTER FUTURA  */
+
+/* =header =nav  */
+ 
+ div#gbltopnav li a .topCountNav{background-color:#666;} 
+/* =footer */
+/* =buttons */
+.srchButton div #submit_Header, .friendSpaceSearchBtn {
+	
+}
+div.srchButton div input#submit_Header:hover,.friendSpaceSearchBtn:hover {
+}
+/* =gap */
+.gapControl .mainAction a {
+}
+.gapControl .mainAction a:hover {
+}
+.gapControl .alreadyFriend{
+	background: #modColor(#@status, 0, 0.0, 0.4);
+	background: rgba(#hexToRGB(@status), 0.4 );
+	color:#@status_contrast;
+	border:1px solid rgba(#hexToRGB(@status), 0.5 );
+	padding:0 10px 0 4px;
+}
+
+/* =custom CSS
+	------------------------------------- */
+	/* userStatus Mods */
+	.sites .userStatus { width: 764px; background: #fff; color: #666; border: 3px solid #D6D6D6; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+	
+	.userStatus small { left: -12px; height: 16px; width: 12px; border: none; background: url(http://creative.myspacecdn.com/profiles/themes/futura/status_tip.png) no-repeat top right; }
+	
+	#msSubnav .nav li:first-child a { color: #000; }
+	
+	/* Module Shadow */
+	 .module { border: 1px solid #e8e8e8;
+		   -moz-box-shadow: 2px 2px 3px #aaa; -webkit-box-shadow: 2px 2px 3px #aaa; box-shadow: 2px 2px 3px #aaa; 
+		   -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;  }
+	.moduleHead { background: #f6f6f6; padding: 6px 10px; border: none;   -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; -moz-border-radius-topright: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; }
+	
+	/* Undo module Styles to ads */
+	.SitesMedRecModule, .SitesGoogleAdsModule { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: none; }
+	.SitesGoogleAdsModule .moduleBody { padding: 0; }
+	
+	.sitesHeader .glue.alreadyFriend { background: #fff; color: #333; height: 16px; padding-left: 5px; border-color: #ccc; } 
